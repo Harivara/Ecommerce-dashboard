@@ -1,0 +1,53 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #312e2e;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky; /* Make the topbar sticky */
+    top: 0; /* Stick the topbar to the top */
+    z-index: 1000;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .topbar-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .topbar-icons i {
+    font-size: 20px;
+    color: #efeded;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .topbar-icons i:hover {
+    color: #007BFF;
+  }
+  
+  .profile-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  

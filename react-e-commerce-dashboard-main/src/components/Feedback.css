@@ -1,0 +1,42 @@
+/* src/components/Feedback.css */
+
+.feedback {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  background-color: #312e2e;
+}
+
+.feedback-card {
+  font-size: 11px;
+  padding: 2px;
+  border-radius: 8px;
+}
+
+.feedback-card.border-bottom {
+  border-bottom: 1px solid #555;
+}
+
+.customer-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.feedback-card h4 {
+  margin: 0;
+}
+
+.rating {
+  color: #ffd700;
+  margin-bottom: 10px;
+}

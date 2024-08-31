@@ -1,0 +1,85 @@
+/* src/components/MainContent.css */
+.content {
+  color:white;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #312e2e;
+  
+}
+
+.recent-orders {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-orders th, .recent-orders td {
+  text-align: left;
+  padding: 4px;
+}
+
+.recent-orders th {
+  border-bottom: 1px solid #555;
+}
+
+.recent-orders td {
+  border-bottom: 1px solid #333;
+}
+
+.customer-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.status {
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  height: 10px;
+  opacity: 0.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.status.delivered {
+  background-color: green;
+}
+
+.status.cancelled {
+  background-color: red;
+}
+
+.status.pending {
+  background-color: orange;
+}
+
+@media (max-width: 768px) {
+  .recent-orders th, .recent-orders td {
+    padding: 8px;
+  }
+
+  .profile-pic {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .recent-orders th, .recent-orders td {
+    padding: 6px;
+  }
+
+  .profile-pic {
+    width: 25px;
+    height: 25px;
+  }
+}

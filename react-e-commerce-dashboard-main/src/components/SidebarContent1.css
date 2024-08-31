@@ -1,0 +1,63 @@
+/* src/components/SidebarContent1.css */
+.sidebar-content-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.item-content {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+
+.target-icon {
+  color: #fff;
+  background-color: red;
+  border-color: red;
+}
+
+.hamburger-icon {
+  color: #fff;
+  background-color: blue;
+  border-color: blue;
+}
+
+.dish-icon {
+  color: #fff;
+  background-color: red;
+  border-color: red;
+}
+
+.content-text {
+  color: #f2eeee;
+
+}
+
+.arrow-section {
+  font-size: 20px;
+  color: #5c5c5d;
+}
